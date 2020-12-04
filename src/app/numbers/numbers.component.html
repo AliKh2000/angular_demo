@@ -1,0 +1,17 @@
+<h2>Numbers</h2>
+
+<div>
+  <input #num_1 />
+  &nbsp;
+  +
+  &nbsp;
+  <input #num_2 />
+  
+  &nbsp;
+  <button (click)="getSum(num_1.value, num_2.value);">
+    =
+  </button>
+  &nbsp;
+
+  <input readonly value="{{result}}" />
+</div>
